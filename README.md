@@ -6,12 +6,7 @@ The proxy accepts client connections on `0.0.0.0:3000` and forwards each
 connection to `127.0.0.1:6767`. Data is copied in both directions until one
 side closes the connection or an I/O error occurs.
 
-## Requirements
-
-- Rust and Cargo with support for the 2024 edition
-- A TCP service listening on `127.0.0.1:6767`
-
-Install Rust with [rustup](https://rustup.rs/) if it is not already available.
+> Install Rust with [rustup](https://rustup.rs/) if it is not already available.
 
 ## Run
 
